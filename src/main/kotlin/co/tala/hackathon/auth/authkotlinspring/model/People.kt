@@ -30,4 +30,3 @@ data class People(
         @NotBlank @Column(name = "lang") var lang : String = "en-KE",
         @NotBlank @Column(name = "updated_at") var updatedAt : Timestamp = Timestamp(Date().time)
 )
-
